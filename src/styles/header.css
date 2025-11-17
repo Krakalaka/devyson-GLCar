@@ -36,7 +36,7 @@ nav {
 }
 
 .nav-item a {
-    color          : white         ;
+    color          : white           ;
     opacity        : 0.9             ;
     font-weight    : 500             ;
     transition     : opacity .3s ease;
@@ -66,16 +66,16 @@ nav {
 }
 
 .mobile-menu-btn div {
-    width           : 35px      ;
-    height          : 3px       ;
-    background-color: white   ;
-    margin          : 9px 0     ;
-    transition      : 0.4s      ;
-    border-radius   : 1.5px     ;
+    width           : 35px ;
+    height          : 3px  ;
+    background-color: white;
+    margin          : 9px 0;
+    transition      : 0.4s ;
+    border-radius   : 1.5px;
 }
 
 .open .bar1 {
-    translate        : 0 12px;
+    translate        : 0 12px        ;
     -webkit-transform: rotate(-45deg);
     transform        : rotate(-45deg);
 }
