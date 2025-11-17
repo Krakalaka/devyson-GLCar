@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./gallery.css');
+
+:root {
+    --primary-color_-9: #040507;
+    --primary-color_-8: #080A0F;
+    --primary-color_-7: #0C0F16;
+    --primary-color_-6: #10141E;
+    --primary-color_-5: #141825;
+    --primary-color_-4: #181D2C;
+    --primary-color_-3: #1C2234;
+    --primary-color_-2: #21273B;
+    --primary-color_-1: #252C43;
+    --primary-color_0: #283049;
+    --primary-color_1: #37405C;
+    --primary-color_2: #47506E;
+    --primary-color_3: #586280;
+    --primary-color_4: #6B7592;
+    --primary-color_5: #7F89A4;
+    --primary-color_6: #969EB7;
+    --primary-color_7: #AEB4C9;
+    --primary-color_8: #C7CCDB;
+    --primary-color_9: #E2E5ED;
+
+    --secondary-color_-9: #100101;
+    --secondary-color_-8: #200101;
+    --secondary-color_-7: #2F0202;
+    --secondary-color_-6: #3F0303;
+    --secondary-color_-5: #4F0303;
+    --secondary-color_-4: #5F0404;
+    --secondary-color_-3: #6F0404;
+    --secondary-color_-2: #7E0505;
+    --secondary-color_-1: #8E0606;
+    --secondary-color_0: #9d0707;
+    --secondary-color_1: #A81717;
+    --secondary-color_2: #B12929;
+    --secondary-color_3: #BB3D3D;
+    --secondary-color_4: #C55353;
+    --secondary-color_5: #CF6B6B;
+    --secondary-color_6: #D88585;
+    --secondary-color_7: #E2A1A1;
+    --secondary-color_8: #ECBEBE;
+    --secondary-color_9: #F5DEDE;
+
+    --section-light-contrast-bg-color: #f1f1f1;
+
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.a-btn {
+    display: block;
+    text-decoration: none;
+}
+
+.btn {
+    width: fit-content;
+    padding: 10px 24px;
+    background-color: var(--secondary-color_0);
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .3s ease;
+}
+
+.default-btn:hover {
+    background-color: var(--secondary-color_1);
+}
+
+section {
+    width: 100%;
+    padding: 4rem 1rem;
+}
+
+.container {
+    max-width: 1200px;
+}

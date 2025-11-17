@@ -1,0 +1,122 @@
+header {
+    position        : fixed                 ;
+    top             : 0                     ;
+    z-index         : 100                   ;
+    width           : 100%                  ;
+    padding         : 14px 4%               ;
+    display         : flex                  ;
+    align-items     : center                ;
+    justify-content : space-between         ;
+    background-color: var(--primary-color_0);
+    box-shadow      : var(--box-shadow)     ;
+}
+
+nav {
+    display        : flex        ;
+    align-items    : center      ;
+    justify-content: space-around;
+}
+
+.header-logo {
+    cursor     : default;
+    user-select: none   ;
+}
+
+.header-logo img {
+    width        : 70px ;
+    height       : auto ;
+    object-fit   : cover;
+    border-radius: 50%  ;
+}
+
+.nav-menu {
+    display   : flex;
+    list-style: none;
+    gap       : 48px;
+}
+
+.nav-item a {
+    color          : white         ;
+    opacity        : 0.9             ;
+    font-weight    : 500             ;
+    transition     : opacity .3s ease;
+    text-decoration: none            ;
+}
+
+.nav-item a:hover {
+    opacity                  : 1                       ;
+    text-decoration          : underline               ;
+    text-decoration-color    : var(--secondary-color_2);
+    text-decoration-thickness: 2px                     ;
+    text-underline-offset    : 4px                     ;
+}
+
+.nav-btn {
+    margin-left: 64px;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+}
+
+.mobile-menu-btn {
+    margin : auto 0 ;
+    display: none   ;
+    cursor : pointer;
+}
+
+.mobile-menu-btn div {
+    width           : 35px      ;
+    height          : 3px       ;
+    background-color: white   ;
+    margin          : 9px 0     ;
+    transition      : 0.4s      ;
+    border-radius   : 1.5px     ;
+}
+
+.open .bar1 {
+    translate        : 0 12px;
+    -webkit-transform: rotate(-45deg);
+    transform        : rotate(-45deg);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    translate        : 0 -12px      ;
+    -webkit-transform: rotate(45deg);
+    transform        : rotate(45deg);
+}
+
+.open .mobile-menu {
+    display       : flex  ;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.mobile-menu {
+    display         : none                  ;
+    position        : absolute              ;
+    list-style      : none                  ;
+    top             : 102px                 ;
+    left            : 0                     ;
+    width           : 100%                  ;
+    background-color: var(--primary-color_0);
+}
+
+.mobile-menu .nav-item {
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 1170px) {
+    nav,
+    .div__nav-btn {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+}

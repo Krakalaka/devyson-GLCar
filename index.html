@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>Devyson Landing Page</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="header-logo">
+            <img src="./src/assets/logo.png" alt="Logo GL Car">
+        </a>
+
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Início</a></li>
+                <li class="nav-item"><a href="#">Sobre</a></li>
+                <li class="nav-item"><a href="#">Serviços</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <li class="nav-item"><a href="#">Localização</a></li>
+                <li class="nav-item"><a href="blog.glcar.com">Blog</a></li>
+            </ul>
+        </nav>
+
+        <div class="div__nav-btn">
+            <a href="wa.me/558199412896" class="a-btn btn nav-btn">
+                Agendar pelo WhatsApp
+            </a>
+        </div>
+
+        <div class="mobile-menu-btn" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li class="nav-item"><a href="#">Início</a></li>
+                <li class="nav-item"><a href="#">Sobre</a></li>
+                <li class="nav-item"><a href="#">Serviços</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <li class="nav-item"><a href="#">Localização</a></li>
+                <li class="nav-item"><a href="blog.glcar.com">Blog</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="container">
+                <h1>Oficina Especializada em Suspensão e Freio</h1>
+                <h2>GL CAR – Nacionais e Importados desde 2003</h2>
+                <p>
+                    Confiança, qualidade e segurança para o seu veículo. Atendemos carros nacionais e importados com especialistas em suspensão automotiva.
+                </p>
+                <a href="wa.me/558199412896" class="a-btn btn">
+                    Agende pelo WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>Quem Somos</h2>
+                    <p>Desde 2003, a <b>GL CAR Suspensão e Freio</b> oferece serviços especializados em veículos nacionais e importados. Nossa missão é garantir a segurança, conforto e desempenho do seu carro com atendimento de qualidade e confiança.</p>
+                    <p>Somos referência em manutenção de <b>suspensões automotivas e sistemas de freio</b>, sempre priorizando inovação, precisão e compromisso com nossos clientes.</p>
+                    <a href="" class="a-btn btn">Fale Conosco</a>
+                </div>
+                <div class="img-container">
+                    <img src="./src/assets/about.jpg" alt="Imagem da oficina">
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2>Galeria da Oficina</h2>
+                <div class="slideshow">
+                    <div id="gallery_slideshow" class="slides">
+                        <img class="slide fade" src="./src/assets/gallery/1.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/2.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/3.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/4.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/5.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/6.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/7.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/8.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/9.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/10.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/11.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/12.jpg" alt="">
+                    </div>
+
+                    <button class="pre" onclick="plusSlide(-1)">◀</button>
+                    <button class="next" onclick="plusSlide(1)">▶</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services"></section>
+
+        <section class="contact"></section>
+
+        <section class="location"></section>
+    </main>
+
+    <script src="./src/javascript/script.js"></script>
+</body>
+</html>
