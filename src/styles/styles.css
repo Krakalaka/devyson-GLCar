@@ -3,6 +3,7 @@
 @import url('./hero.css');
 @import url('./about.css');
 @import url('./gallery.css');
+@import url('./services.css');
 
 :root {
     --primary-color_-9: #040507;
@@ -85,7 +86,7 @@ p {
     transition: .3s ease;
 }
 
-.default-btn:hover {
+.btn:hover {
     background-color: var(--secondary-color_1);
 }
 

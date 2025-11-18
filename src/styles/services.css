@@ -1,0 +1,63 @@
+.services {
+    display       : flex     ;
+    flex-direction: column   ;
+    text-align    : center   ;
+    padding       : 4rem 2rem;
+}
+
+.services p:not(.service p) {
+    font-size: 1.1rem;
+}
+
+.services ul {
+    display              : grid                                ;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap                  : 2rem                                ;
+
+    margin-top: 32px;
+
+    list-style: none;
+}
+
+.services li {
+    background-color: var(--primary-color_9);
+    box-shadow      : var(--box-shadow)     ;
+
+    padding      : 2rem;
+    border-radius: 1rem;
+
+    display        : flex         ;
+    flex-direction : column       ;
+    justify-content: space-between;
+    row-gap        : 10px         ;
+
+    line-height: 1.3                ;
+    transition : all .3s ease-in-out;
+}
+
+.services li:hover {
+    transform       : scale(1.05);
+    background-color: #f0f2f6  ;
+}
+
+.services img {
+    width : 100%;
+    height: auto;
+}
+
+.services h3 {
+    font-size: 1.2rem                 ;
+    color    : var(--primary-color_-1);
+}
+
+.service p {
+    font-size: 0.5rem;
+}
+
+.services .btn {
+    width: 100%;
+}
+
+.services .btn:hover {
+    transform: scale(1.1);
+}
