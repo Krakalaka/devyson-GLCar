@@ -16,11 +16,6 @@
     gap: 16px;
 }
 
-.gallery h2 {
-    font-size: 2rem;
-    color: var(--primary-color_-1);
-}
-
 .gallery .slideshow {
     display: flex;
     position: relative;
