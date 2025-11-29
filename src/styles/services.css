@@ -49,14 +49,8 @@
     color    : var(--primary-color_-1);
 }
 
-.service p {
-    font-size: 0.5rem;
-}
+.service p { font-size: 0.5rem; }
 
-.services .btn {
-    width: 100%;
-}
+.services .btn { width: 100%; }
 
-.services .btn:hover {
-    transform: scale(1.1);
-}
+.services .btn:hover { transform: scale(1.1); }

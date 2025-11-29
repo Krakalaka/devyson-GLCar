@@ -26,9 +26,7 @@
     gap: 20px;
 }
 
-.contact label {
-    width: 100%;
-}
+.contact label { width: 100%; }
 
 .contact input,
 .contact textarea {
@@ -46,9 +44,7 @@
 }
 
 .contact input:focus,
-.contact textarea:focus {
-    border: 1px solid var(--secondary-color_0);
-}
+.contact textarea:focus { border: 1px solid var(--secondary-color_0); }
 
 .contact .btn {
     width: 100%;
@@ -60,6 +56,4 @@
     font-size  : 1rem   ;
 }
 
-.contact .btn:hover {
-    transform: scale(1.1);
-}
+.contact .btn:hover { transform: scale(1.1); }

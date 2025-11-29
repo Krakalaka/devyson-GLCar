@@ -62,9 +62,7 @@
     transition: .3s ease;
 }
 
-.gallery button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
+.gallery button:hover { background-color: rgba(0, 0, 0, 0.7); }
 
 .gallery .pre {
     left         : 0            ;
@@ -87,13 +85,9 @@
 }
 
 @media screen and (max-width: 700px) {
-    .gallery .slideshow {
-        height: 300px;
-    }
+    .gallery .slideshow { height: 300px; }
 }
 
 @media screen and (max-width: 300px) {
-    .gallery .slideshow {
-        height: 200px;
-    }
+    .gallery .slideshow { height: 200px; }
 }

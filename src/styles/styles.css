@@ -6,6 +6,7 @@
 @import url('./services.css');
 @import url('./contact.css');
 @import url('./location.css');
+@import url('./faq-questions.css');
 
 :root {
     --primary-color_-9: #040507;
@@ -54,9 +55,7 @@
     --box-shadow-2: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-html {
-    font-size: 16px;
-}
+html { font-size: 16px; }
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -95,18 +94,14 @@ p {
     transition: .3s ease;
 }
 
-.btn:hover {
-    background-color: var(--secondary-color_1);
-}
+.btn:hover { background-color: var(--secondary-color_1); }
 
 section {
     width  : 100%     ;
     padding: 4rem 1rem;
 }
 
-.container {
-    max-width: 1200px;
-}
+.container { max-width: 1200px; }
 
 h2 {
     font-size: 2rem                   ;

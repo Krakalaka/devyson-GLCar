@@ -58,21 +58,13 @@
 }
 
 @media screen and (max-width: 700px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
+    .hero h1 { font-size: 2rem; }
 }
 
 @media screen and (max-width: 400px) {
-    .hero h1 {
-        font-size: 1.5rem;
-    }
+    .hero h1 { font-size: 1.5rem; }
 
-    .hero h2 {
-        font-size: 1.1rem;
-    }
+    .hero h2 { font-size: 1.1rem; }
 
-    .hero p {
-        font-size: 1rem;
-    }
+    .hero p { font-size: 1rem; }
 }
