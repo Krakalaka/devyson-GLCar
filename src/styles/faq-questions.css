@@ -25,16 +25,17 @@
 .faq-questions summary::marker { content: none; }
 
 .faq-questions summary {
-    padding: 1rem 8px;
-    
-    border-radius: 10px;
+    padding      : 1rem 8px;
+    border-radius: 10px    ;
     
     color      : var(--primary-color_0);
     font-weight: 600                   ;
     font-size  : 1.1rem                ;
 
-    display: flex;
+    display        : flex         ;
     justify-content: space-between;
+
+    cursor: pointer;
 
     transition: color .3s ease;
 }

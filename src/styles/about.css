@@ -1,7 +1,7 @@
 .about {
     background-color: var(--section-light-contrast-bg-color);
 
-    display        : flex ;
+    display        : flex  ;
     align-items    : center;
     justify-content: center;
 }
