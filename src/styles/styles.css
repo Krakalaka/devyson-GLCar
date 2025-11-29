@@ -5,6 +5,7 @@
 @import url('./gallery.css');
 @import url('./services.css');
 @import url('./contact.css');
+@import url('./location.css');
 
 :root {
     --primary-color_-9: #040507;
@@ -16,16 +17,16 @@
     --primary-color_-3: #1C2234;
     --primary-color_-2: #21273B;
     --primary-color_-1: #252C43;
-    --primary-color_0: #283049;
-    --primary-color_1: #37405C;
-    --primary-color_2: #47506E;
-    --primary-color_3: #586280;
-    --primary-color_4: #6B7592;
-    --primary-color_5: #7F89A4;
-    --primary-color_6: #969EB7;
-    --primary-color_7: #AEB4C9;
-    --primary-color_8: #C7CCDB;
-    --primary-color_9: #E2E5ED;
+    --primary-color_0 : #283049;
+    --primary-color_1 : #37405C;
+    --primary-color_2 : #47506E;
+    --primary-color_3 : #586280;
+    --primary-color_4 : #6B7592;
+    --primary-color_5 : #7F89A4;
+    --primary-color_6 : #969EB7;
+    --primary-color_7 : #AEB4C9;
+    --primary-color_8 : #C7CCDB;
+    --primary-color_9 : #E2E5ED;
 
     --secondary-color_-9: #100101;
     --secondary-color_-8: #200101;
@@ -36,16 +37,16 @@
     --secondary-color_-3: #6F0404;
     --secondary-color_-2: #7E0505;
     --secondary-color_-1: #8E0606;
-    --secondary-color_0: #9d0707;
-    --secondary-color_1: #A81717;
-    --secondary-color_2: #B12929;
-    --secondary-color_3: #BB3D3D;
-    --secondary-color_4: #C55353;
-    --secondary-color_5: #CF6B6B;
-    --secondary-color_6: #D88585;
-    --secondary-color_7: #E2A1A1;
-    --secondary-color_8: #ECBEBE;
-    --secondary-color_9: #F5DEDE;
+    --secondary-color_0 : #9d0707;
+    --secondary-color_1 : #A81717;
+    --secondary-color_2 : #B12929;
+    --secondary-color_3 : #BB3D3D;
+    --secondary-color_4 : #C55353;
+    --secondary-color_5 : #CF6B6B;
+    --secondary-color_6 : #D88585;
+    --secondary-color_7 : #E2A1A1;
+    --secondary-color_8 : #ECBEBE;
+    --secondary-color_9 : #F5DEDE;
 
     --section-light-contrast-bg-color: #f1f1f1;
 
@@ -59,33 +60,38 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: #222;
-    line-height: 1.6;
+    color      : #222                    ;
+    line-height: 1.6                     ;
 }
 
 * {
-    margin: 0;
+    margin : 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 
 p {
     font-family: "Roboto", Arial, sans-serif;
-    font-size: 1.1rem;
+    font-size  : 1.1rem                     ;
 }
 
 .a-btn {
-    display: block;
-    text-decoration: none;
+    display        : block;
+    text-decoration: none ;
 }
 
 .btn {
     width: fit-content;
-    padding: 10px 24px;
+
     background-color: var(--secondary-color_0);
-    color: white;
-    font-weight: 600;
-    border-radius: 6px;
+    border-radius   : 6px      ;
+    padding         : 10px 24px;
+
+    color      : white;
+    font-weight: 600  ;
+    user-select: none ;
+
     transition: .3s ease;
 }
 
@@ -94,7 +100,7 @@ p {
 }
 
 section {
-    width: 100%;
+    width  : 100%     ;
     padding: 4rem 1rem;
 }
 
@@ -103,6 +109,6 @@ section {
 }
 
 h2 {
-    font-size: 2rem;
-    color: var(--primary-color_-1);
+    font-size: 2rem                   ;
+    color    : var(--primary-color_-1);
 }
