@@ -1,7 +1,11 @@
+// MOBILE MENU SECTION
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 }
 
+
+
+// SLIDE SECTION
 function slideShow(n) {
     let   slides  = document.getElementsByClassName("slide");
     const slidesL = slides.length;
@@ -28,3 +32,10 @@ function automaticSlide() {
 
 let galleryIndex = 1;
 automaticSlide();
+
+
+
+// POPUP SECTION
+document.querySelector(".popup .close-btn").addEventListener("click", function() {
+    document.querySelector(".popup").classList.remove("active");
+})

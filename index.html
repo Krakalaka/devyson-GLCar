@@ -14,7 +14,7 @@
             position: fixed;
             right   : 24px ;
             bottom  : 24px ;
-            z-index : 200  ;
+            z-index : 100  ;
 
             font-size: 2.8rem;
 
@@ -33,23 +33,23 @@
     </button>
 
     <header>
-        <a href="#" class="header-logo">
+        <a href="#" class="logo">
             <img src="./src/assets/logo.png" alt="Logo GL Car">
         </a>
 
         <nav>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#">Início</a></li>
-                <li class="nav-item"><a href="#">Sobre</a></li>
-                <li class="nav-item"><a href="#">Serviços</a></li>
-                <li class="nav-item"><a href="#">Contato</a></li>
-                <li class="nav-item"><a href="#">Localização</a></li>
-                <li class="nav-item"><a href="blog.glcar.com">Blog</a></li>
+            <ul class="menu">
+                <li class="item"><a href="#">Início</a></li>
+                <li class="item"><a href="#">Sobre</a></li>
+                <li class="item"><a href="#">Serviços</a></li>
+                <li class="item"><a href="#">Contato</a></li>
+                <li class="item"><a href="#">Localização</a></li>
+                <li class="item"><a href="blog.glcar.com">Blog</a></li>
             </ul>
         </nav>
 
-        <div class="div__nav-btn">
-            <a href="wa.me/558199412896" class="a-btn btn nav-btn">
+        <div class="nav-btn">
+            <a href="wa.me/558199412896" class="a-btn btn">
                 Agendar pelo WhatsApp
             </a>
         </div>
@@ -59,12 +59,13 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
             <ul class="mobile-menu">
-                <li class="nav-item"><a href="#">Início</a></li>
-                <li class="nav-item"><a href="#">Sobre</a></li>
-                <li class="nav-item"><a href="#">Serviços</a></li>
-                <li class="nav-item"><a href="#">Contato</a></li>
-                <li class="nav-item"><a href="#">Localização</a></li>
-                <li class="nav-item"><a href="blog.glcar.com">Blog</a></li>
+                <li class="item"><a href="#">Início</a></li>
+                <li class="item"><a href="#">Sobre</a></li>
+                <li class="item"><a href="#">Serviços</a></li>
+                <li class="item"><a href="#">Contato</a></li>
+                <li class="item"><a href="#">Localização</a></li>
+                <li class="item"><a href="#">Perguntas Frequentes</a></li>
+                <li class="item"><a href="blog.glcar.com">Blog</a></li>
             </ul>
         </div>
     </header>
@@ -313,6 +314,19 @@
             <p>Desenvolvido por <a href="">Devyson</a> e copiado por <a href="">Krakalaka</a></p>
         </div>
     </footer>
+
+    <div class="popup active">
+        <div class="container">
+            <button class="close-btn">
+                <i class="fa fa-times"></i>
+            </button>
+            <h2>Seu carro merece segurança!</h2>
+            <p>
+                Fale com um especialista agora mesmo no WhatsApp e <b>reserve seu horário sem espera</b>.
+            </p>
+            <a href="" class="a-btn btn">Agendar revisão</a>
+        </div>
+    </div>
 
     <script src="./src/javascript/script.js"></script>
 </body>
