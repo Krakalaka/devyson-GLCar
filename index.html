@@ -18,38 +18,48 @@
 
             font-size: 2.8rem;
 
-            border: none;
-            border-radius: 50%;
+            border       : none;
+            border-radius: 50% ;
 
             color           : white                          ;
             background-color: #0de034                        ;
             box-shadow      : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            cursor: pointer;
+
+            transition: .3s ease;
+        }
+
+        #wpp_btn:hover {
+            box-shadow: rgba(0, 0, 0, 0.48) 0px 3px 8px;
         }
     </style>
 </head>
 <body>
-    <button id="wpp_btn">
-        <i class="fa-brands fa-whatsapp"></i>
-    </button>
+    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer">
+        <button id="wpp_btn">
+            <i class="fa-brands fa-whatsapp"></i>
+        </button>
+    </a>
 
     <header>
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="./src/assets/logo.png" alt="Logo GL Car">
         </a>
 
         <nav>
             <ul class="menu">
-                <li class="item"><a href="#">Início</a></li>
-                <li class="item"><a href="#">Sobre</a></li>
-                <li class="item"><a href="#">Serviços</a></li>
-                <li class="item"><a href="#">Contato</a></li>
-                <li class="item"><a href="#">Localização</a></li>
-                <li class="item"><a href="blog.glcar.com">Blog</a></li>
+                <li class="item"><a href="#hero">Início</a></li>
+                <li class="item"><a href="#about">Sobre</a></li>
+                <li class="item"><a href="#services">Serviços</a></li>
+                <li class="item"><a href="#contact">Contato</a></li>
+                <li class="item"><a href="#location">Localização</a></li>
+                <li class="item"><a href="https://blog.glcar.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
             </ul>
         </nav>
 
         <div class="nav-btn">
-            <a href="wa.me/558199412896" class="a-btn btn">
+            <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">
                 Agendar pelo WhatsApp
             </a>
         </div>
@@ -59,19 +69,18 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
             <ul class="mobile-menu">
-                <li class="item"><a href="#">Início</a></li>
-                <li class="item"><a href="#">Sobre</a></li>
-                <li class="item"><a href="#">Serviços</a></li>
-                <li class="item"><a href="#">Contato</a></li>
-                <li class="item"><a href="#">Localização</a></li>
-                <li class="item"><a href="#">Perguntas Frequentes</a></li>
-                <li class="item"><a href="blog.glcar.com">Blog</a></li>
+                <li class="item"><a href="#hero">Início</a></li>
+                <li class="item"><a href="#about">Sobre</a></li>
+                <li class="item"><a href="#services">Serviços</a></li>
+                <li class="item"><a href="#contact">Contato</a></li>
+                <li class="item"><a href="#location">Localização</a></li>
+                <li class="item"><a href="https://blog.glcar.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
             </ul>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="overlay"></div>
             <div class="container">
                 <h1>Oficina Especializada em Suspensão e Freio</h1>
@@ -79,19 +88,19 @@
                 <p>
                     Confiança, qualidade e segurança para o seu veículo. Atendemos carros nacionais e importados com especialistas em suspensão automotiva.
                 </p>
-                <a href="wa.me/558199412896" class="a-btn btn">
+                <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">
                     Agende pelo WhatsApp
                 </a>
             </div>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
                 <div class="content">
                     <h2>Quem Somos</h2>
                     <p>Desde 2003, a <b>GL CAR Suspensão e Freio</b> oferece serviços especializados em veículos nacionais e importados. Nossa missão é garantir a segurança, conforto e desempenho do seu carro com atendimento de qualidade e confiança.</p>
                     <p>Somos referência em manutenção de <b>suspensões automotivas e sistemas de freio</b>, sempre priorizando inovação, precisão e compromisso com nossos clientes.</p>
-                    <a href="" class="a-btn btn">Fale Conosco</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Fale Conosco</a>
                 </div>
                 <div class="img-container">
                     <img src="./src/assets/about.jpg" alt="Imagem da oficina">
@@ -99,23 +108,23 @@
             </div>
         </section>
 
-        <section class="gallery">
+        <section id="gallery" class="gallery">
             <div class="container">
                 <h2>Galeria da Oficina</h2>
                 <div class="slideshow">
                     <div id="gallery_slideshow" class="slides">
-                        <img class="slide fade" src="./src/assets/gallery/1.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/2.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/3.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/4.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/5.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/6.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/7.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/8.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/9.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/10.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/11.jpg" alt="">
-                        <img class="slide fade" src="./src/assets/gallery/12.jpg" alt="">
+                        <img class="slide fade" src="./src/assets/gallery/1.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/2.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/3.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/4.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/5.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/6.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/7.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/8.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/9.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/10.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/11.jpg" alt="Oficina">
+                        <img class="slide fade" src="./src/assets/gallery/12.jpg" alt="Oficina">
                     </div>
 
                     <button class="pre" onclick="plusSlide(-1)">◀</button>
@@ -124,7 +133,7 @@
             </div>
         </section>
 
-        <section class="services">
+        <section id="services" class="services">
             <h2>Nossos serviços</h2>
             <p>
                 Especialistas em manutenção automotiva de veículos nacionais e importados.
@@ -137,7 +146,7 @@
                     <p>
                         Serviço completo para garantir estabilidade, conforto e segurança do seu carro.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/amortecedor.jpeg" alt="">
@@ -145,7 +154,7 @@
                     <p>
                         Substituição com peças de qualidade para prolongar a vida útil do veículo.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/freios.jpeg" alt="">
@@ -153,7 +162,7 @@
                     <p>
                         Inspeção e reparo completo para manter o sistema de freios eficiente e seguro.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/alinhamento.jpeg" alt="">
@@ -161,7 +170,7 @@
                     <p>
                         Seu carro com pneus perfeitamente alinhados e balanceados, garantindo segurança, conforto e maior durabilidade.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/direcao.jpeg" alt="">
@@ -169,7 +178,7 @@
                     <p>
                         Serviço especializado para restaurar a precisão e leveza da direção do seu veículo.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/coxins.jpeg" alt="">
@@ -177,7 +186,7 @@
                     <p>
                         Elimine vibrações e ruídos indesejados com a substituição de coxins de qualidade. 
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/rebaixamento.jpg" alt="">
@@ -185,7 +194,7 @@
                     <p>
                         Serviço profissional de rebaixamento com segurança e certificação, garantindo estilo e performance.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/bandejas.jpeg" alt="">
@@ -193,7 +202,7 @@
                     <p>
                         Troca e manutenção dos componentes essenciais para a estabilidade e durabilidade da suspensão.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
                 <li>
                     <img src="./src/assets/services/homocinetica.jpeg" alt="">
@@ -201,28 +210,29 @@
                     <p>
                         Correção de ruídos e trepidações para uma condução suave e segura.
                     </p>
-                    <a href="" class="a-btn btn">Agendar</a>
+                    <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar</a>
                 </li>
             </ul>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <h2>Entre em Contato</h2>
             <p>
                 Solicite um orçamento rápido pelo WhatsApp
             </p>
-            <form action="" method="post">
+            <!-- HELP: idk how to backend -->
+            <form action="contact.php" method="post">
                 <label for="costumer-name">
-                    <input type="text" name="costumer-name" id="input_costumer-name" placeholder="Seu nome">
+                    <input type="text" name="costumer-name" id="costumer-name" placeholder="Seu nome" maxlength="100">
                 </label>
                 <label for="costumer-message">
-                    <textarea name="costumer-message" id="input_costumer-message" placeholder="Sua mensagem" rows="4"></textarea>
+                    <textarea name="costumer-message" id="costumer-message" placeholder="Sua mensagem" rows="4" maxlength="1900"></textarea>
                 </label>
                 <button class="btn" type="submit">Enviar pelo WhatsApp</button>
             </form>
         </section>
 
-        <section class="location">
+        <section id="location" class="location">
             <h2>Onde Estamos</h2>
             <p>
                 Visite nossa oficina e faça seu orçamento pessoalmente
@@ -231,12 +241,12 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.69597317688!2d-34.923548!3d-8.116956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e5caf5615b5%3A0x941476996fbabd21!2sGL%20Car!5e0!3m2!1sen!2sbr!4v1764282578805!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 Localização do GLCAR
             </div>
-            <a href="" class="a-btn btn">
+            <a href="https://maps.app.goo.gl/S15kHRCUYmg8dWDDA" target="_blank" rel="noopener noreferrer" class="a-btn btn">
                 Traçar rota no Google Maps
             </a>
         </section>
 
-        <section class="faq-questions">
+        <section id="faq" class="faq-questions">
             <h2>Perguntas Frequentes</h2>
             <details>
                 <summary>Quais serviços a GL Car oferece?<span>▼</span></summary>
@@ -292,26 +302,25 @@
             <div>
                 <h4>Menu</h4>
                 <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Localização</a></li>
-                    <li><a href="">Perguntas frequentes</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#location">Localização</a></li>
+                    <li><a href="https://blog.glcar.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
             </div>
             <div>
                 <h4>Contato</h4>
                 <ul>
-                    <li><a href=""><i class="fa-brands fa-whatsapp"></i>WhatsApp: (81) 9 9941-2896</a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram Oficial</a></li>
+                    <li><a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i>WhatsApp: (81) 9 9941-2896</a></li>
+                    <li><a href="https://www.instagram.com/glcar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i>Instagram Oficial</a></li>
                 </ul>
             </div>
         </div>
         <div class="copyright">
             <p>&copy; 2025 GL Car - Todos os direitos reservados.</p>
-            <p>Desenvolvido por <a href="">Devyson</a> e copiado por <a href="">Krakalaka</a></p>
+            <p>Desenvolvido por <a href="https://www.devysonsilva.icu/" target="_blank" rel="noopener noreferrer">Devyson</a> e copiado por <a href="">Krakalaka</a>.</p>
         </div>
     </footer>
 
@@ -324,7 +333,7 @@
             <p>
                 Fale com um especialista agora mesmo no WhatsApp e <b>reserve seu horário sem espera</b>.
             </p>
-            <a href="" class="a-btn btn">Agendar revisão</a>
+            <a href="https://wa.me/558199412896" target="_blank" rel="noopener noreferrer" class="a-btn btn">Agendar revisão</a>
         </div>
     </div>
 

@@ -32,7 +32,9 @@ header .logo img {
 
     object-fit: cover;
 
-    border-radius: 50%  ;
+    border-radius: 50%;
+
+    cursor: pointer;
 }
 
 header .menu {
