@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Devyson Landing Page</title>
     <style>
         #wpp_btn {
+            --wpp-color: 13, 224, 52;
+
             width:  64px;
             height: 64px;
 
@@ -21,17 +24,31 @@
             border       : none;
             border-radius: 50% ;
 
-            color           : white                          ;
-            background-color: #0de034                        ;
-            box-shadow      : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color           : white                ;
+            background-color: rgb(var(--wpp-color));
 
             cursor: pointer;
-
-            transition: .3s ease;
+            
+            transform : scale(1)                         ;
+            box-shadow: 0 0 0 0 rgba(var(--wpp-color), 1);
+            animation : pulse 2s infinite                ;
         }
 
-        #wpp_btn:hover {
-            box-shadow: rgba(0, 0, 0, 0.48) 0px 3px 8px;
+        @keyframes pulse {
+            0% {
+                transform : scale(.95)                        ;
+                box-shadow: 0 0 0 0 rgba(var(--wpp-color), .7);
+            }
+
+            70% {
+                transform : scale(1)                        ;
+                box-shadow: 0 0 0 15px rgba(var(--wpp-color), 0);
+            }
+
+            100% {
+                transform : scale(.95)                        ;
+                box-shadow: 0 0 0 0 rgba(var(--wpp-color), 0);
+            }
         }
     </style>
 </head>

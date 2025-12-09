@@ -32,8 +32,7 @@
     font-weight: 600                   ;
     font-size  : 1.1rem                ;
 
-    display        : flex         ;
-    justify-content: space-between;
+    position: relative;
 
     cursor: pointer;
 
@@ -45,6 +44,9 @@
 .faq-questions summary:hover { color: var(--secondary-color_0); }
 
 .faq-questions summary span {
+    position: absolute;
+    right   : 12px    ;
+
     transition: .2s ease                ;
     color     : var(--secondary-color_0);
 }

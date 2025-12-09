@@ -38,4 +38,25 @@ automaticSlide();
 // POPUP SECTION
 document.querySelector(".popup .close-btn").addEventListener("click", function() {
     document.querySelector(".popup").classList.remove("active");
-})
+});
+
+
+
+// ANIMATION
+ScrollReveal().reveal('#hero .container', {
+    origin: 'bottom',
+    duration: 1500,
+    distance: '15%'
+});
+
+ScrollReveal().reveal('#services li', {
+    origin: 'bottom',
+    duration: 800,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('#faq details', {
+    origin: 'bottom',
+    duration: 800,
+    distance: '20%'
+});
