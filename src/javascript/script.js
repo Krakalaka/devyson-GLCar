@@ -49,6 +49,12 @@ document.querySelector("#popup .close-btn").addEventListener("click", function()
 
 
 //## ANIMATION
+ScrollReveal().reveal('#popup .container', {
+    origin: 'bottom',
+    duration: 300,
+    distance: '15%'
+});
+
 ScrollReveal().reveal('#hero .container', {
     origin: 'bottom',
     duration: 1500,
