@@ -1,11 +1,11 @@
-// MOBILE MENU SECTION
+//## MOBILE MENU SECTION
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 }
 
 
 
-// SLIDE SECTION
+//## SLIDE SECTION
 function slideShow(n) {
     let   slides  = document.getElementsByClassName("slide");
     const slidesL = slides.length;
@@ -35,14 +35,20 @@ automaticSlide();
 
 
 
-// POPUP SECTION
-document.querySelector(".popup .close-btn").addEventListener("click", function() {
-    document.querySelector(".popup").classList.remove("active");
+//## POPUP SECTION
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("popup").classList.add("active");
+  }, 800);
+});
+
+document.querySelector("#popup .close-btn").addEventListener("click", function() {
+    document.getElementById("popup").classList.remove("active");
 });
 
 
 
-// ANIMATION
+//## ANIMATION
 ScrollReveal().reveal('#hero .container', {
     origin: 'bottom',
     duration: 1500,
